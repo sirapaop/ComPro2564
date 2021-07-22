@@ -1,0 +1,19 @@
+#13
+user = "admin"
+pas = "1234"
+
+while True:
+  euser = str(input("enter username :"))
+  epass = str(input("ener password :"))
+  if user == euser and pas != epass :
+    print("password is wrong")
+  elif user != euser and pas == epass :
+    print("username is wrong")
+    
+  else :
+    print("log in success")
+    newu = str(input("enter your new username :"))
+    newp = str(input("enter your new password :"))
+    print("your username is:",newu)
+    print("your password is:",newp)
+    break
