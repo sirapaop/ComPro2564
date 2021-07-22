@@ -1,0 +1,9 @@
+#11
+num = int(input("enter number :"))
+for i in range(0,num):
+  for y in range(i + 1):
+    if y == 0 or y == i :
+      print("*",end='')
+    else :
+      print(" ",end='')
+  print()
