@@ -1,0 +1,17 @@
+#14
+x = str(input("enter your text: "))
+special_character = ['/','-','+','*',' ', '#', '@', '!', '%', '$', ',', ':', ';', '&']
+c_upper = 0
+c_lower = 0
+c_special = 0
+
+for i in range(len(x)):
+  if x[i].isupper():
+    c_upper += 1
+  elif x[i].islower():
+    c_lower += 1
+  elif x[i]in special_character:
+    c_special += 1
+print("uppercase character number is:",c_upper)
+print("lowercase character number is",c_lower)
+print("special character number is :",c_special)
