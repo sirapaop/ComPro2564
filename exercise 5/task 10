@@ -1,0 +1,14 @@
+#10
+num = int(input("enter number :"))
+for i in range(1,num+1):
+  for x in range(i,num):
+    print(" ",end='')
+  for x in range(i *2 -1):
+    print("*",end='')
+  print()
+for z in range(num-1,0,-1):
+  for r in range(num - z):
+    print(end=' ')
+  for w in range(z * 2 -1):
+    print("*",end='')
+  print()
