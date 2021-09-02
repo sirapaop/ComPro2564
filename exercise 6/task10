@@ -1,0 +1,4 @@
+#10
+a = [{"id":"#FF0000","color":"red"},{"id": "#800000","color":"Maroon"},{"id":"#FFFF00","color":"yellow"},{"id":"#808000","color":"olive"}]
+del(a[0])
+print(a)
