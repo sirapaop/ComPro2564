@@ -1,0 +1,7 @@
+sam = {
+    "emp1" : {"name" : "jhon", "salary": 7500},
+    "emp2" : {"name" : "emma", "salary": 8000},
+    "emp3" : {"name" : "brad", "salary": 6500},
+}
+sam["emp3"]["salary"] = "8500"
+sam
