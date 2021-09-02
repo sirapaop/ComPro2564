@@ -1,0 +1,5 @@
+#7
+sam = {"name":"kelly","age":25,"salary":8000,"city":"new york"}
+a = sam.pop("city")
+b = sam["location"] = a
+print(sam)
