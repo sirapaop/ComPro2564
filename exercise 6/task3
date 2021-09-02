@@ -1,0 +1,3 @@
+#3
+sam = {"class":{"student":{"name":"mike","marks":{"physics":70,"history":80}}}}
+print(sam["class"]["student"]["marks"]["history"])
