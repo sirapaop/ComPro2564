@@ -1,0 +1,7 @@
+#8
+sample = {"physics":82 , "math" : 65 , "history":75}
+for i in sample:
+  if sample[i] == min(sample.values()):
+    print(sample.values())
+    print(i)
+    
