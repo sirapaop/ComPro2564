@@ -1,0 +1,10 @@
+#18
+dic1 = [{'id': 1, 'success': True, 'name': 'Lary'}, 
+        {'id': 2, 'success': False, 'name': 'Rabi'}, 
+        {'id': 3, 'success': True, 'name': 'Alex'}]
+count = 0
+for i in dic1 :
+  if "success" in i:
+    if i["success"] == True:
+      count += 1
+print(count)
