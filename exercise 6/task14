@@ -1,0 +1,4 @@
+#14
+dic={'x': 10, 'y': 20, 'z': 30}
+for i in dic :
+  print(i , "->", dic[i])
