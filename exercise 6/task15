@@ -1,0 +1,6 @@
+#15
+n = 5 
+dic1 = {}
+for i in range(n):
+  dic1[i+1] = (i+1)**2
+print(dic1) 
