@@ -1,0 +1,6 @@
+#5
+sam = {"name":"kelly","age":25,"salary":8000,"city":"new york"}
+del(sam["name"])
+del(sam["salary"])
+
+print(sam)
